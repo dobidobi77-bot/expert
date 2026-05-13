@@ -2,6 +2,10 @@
 
 ## Agentic RAG & OpenAI Agents SDK & MCP
 
+- The video: https://youtu.be/KdKqMfs-8gs  
+- My prior video on Agentic RAG: https://youtu.be/K6wpRkJrcpM  
+- My course curriculum: https://edwarddonner.com/curriculum 
+
 ## Setup instructions
 
 1. Clone this repo with `git clone https://github.com/ed-donner/expert.git`
