@@ -344,6 +344,20 @@ button[variant="primary"] svg {
   .gradio-container { padding: 22px 14px 36px !important; }
   .gradio-container h1 { font-size: 22px !important; }
 }
+
+.tool-status {
+    display: block;
+    font-size: 0.78em;
+    line-height: 1;
+    color: var(--twin-gold) !important;
+    opacity: 0.85;
+    font-style: italic;
+    margin: 0.25rem 0;
+}
+
+.tool-status code {
+    color: var(--twin-purple) !important;
+}
 """
 
 JS = """
