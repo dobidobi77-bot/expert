@@ -2,9 +2,19 @@
 
 ## Agentic RAG & OpenAI Agents SDK & MCP
 
-- The video: https://youtu.be/KdKqMfs-8gs  
-- My prior video on Agentic RAG: https://youtu.be/K6wpRkJrcpM  
-- My course curriculum: https://edwarddonner.com/curriculum 
+### Video series:
+
+1. Background: Comparing Agentic RAG with traditional RAG:  
+https://youtu.be/K6wpRkJrcpM
+
+2. Building the initial version of this:  
+https://youtu.be/KdKqMfs-8gs
+
+3. Taking Agentic RAG to the next level with more tools.   
+https://youtu.be/UmGLirGbKTk  
+
+
+My course curriculum: https://edwarddonner.com/curriculum 
 
 ## Setup instructions
 
