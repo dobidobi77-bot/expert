@@ -109,7 +109,7 @@ button, input, textarea,
 .message-row .bubble {
   border: 0 !important;
   box-shadow: none !important;
-  padding: 6px 10px !important;
+  padding: 0px 10px !important;
 }
 
 /* ---------- Bubble backgrounds (broad to cover Gradio variants) ---------- */
@@ -171,14 +171,14 @@ button, input, textarea,
 .message-row .message,
 .message-row .message-bubble,
 .message-row .bubble {
-  font-size: 14px !important;
+  font-size: 16px !important;
   line-height: 1.55 !important;
 }
 .message-row .message p,
 .message-row .message-bubble p,
 .message-row .bubble p,
 .message-row .prose p {
-  font-size: 14px !important;
+  font-size: 16px !important;
   line-height: 1.55 !important;
   margin: 0 0 8px !important;
   color: inherit !important;
@@ -214,7 +214,7 @@ textarea, input[type="text"] {
   border: 1px solid var(--twin-border) !important;
   color: var(--twin-text) !important;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
-  font-size: 14px !important;
+  font-size: 16px !important;
   padding: 12px 14px !important;
   line-height: 1.4 !important;
   min-height: 48px !important;
@@ -349,13 +349,19 @@ button[variant="primary"] svg {
     display: block;
     font-size: 0.78em;
     line-height: 1;
-    color: var(--twin-gold) !important;
     opacity: 0.85;
     font-style: italic;
     margin: 0.25rem 0;
 }
 
-.tool-status code {
+/* Scoped under .message-row so these out-specify the broad
+   `.message-row .message * { color: inherit !important }` strip rule. */
+.message-row .tool-status {
+    color: var(--twin-gold) !important;
+}
+
+.message-row .tool-status code {
+    opacity: 1 !important;
     color: var(--twin-purple) !important;
 }
 """
